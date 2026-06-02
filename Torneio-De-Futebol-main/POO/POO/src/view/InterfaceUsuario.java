@@ -91,7 +91,7 @@ public class InterfaceUsuario {
 
     private void mostrarClubes() {
         terminalOculto.reset(); 
-        System.out.println("Total de times criados: " + listaDeTimes.size() + "\n");
+        System.out.println("Todos os maiores times do mundo: ");
         for (Time t : listaDeTimes) {
             System.out.println("Ranking: " + String.format("%02d", t.getRankingCMD()) + " | Time: " + t.getNome());
         }
@@ -246,9 +246,9 @@ public class InterfaceUsuario {
 
     private void revelarCampeao() {
         terminalOculto.reset();
-        System.out.println("\n\n\n                🌟 PARABÉNS! 🌟\n");
-        System.out.println("          O GRANDE CAMPEÃO DO TORNEIO É:\n");
-        System.out.println("              " + campeao.get(0).getNome().toUpperCase() + "!!!");
+        System.out.println("\n\n\n                    🌟 PARABÉNS! 🌟\n");
+        System.out.println("              O GRANDE CAMPEÃO DO TORNEIO É:\n");
+        System.out.println("                     " + campeao.get(0).getNome().toUpperCase() + "!!!");
         System.out.println("\n\n\n");
         
         mostrarPopUp("🏆 TEMOS UM CAMPEÃO! 🏆");
