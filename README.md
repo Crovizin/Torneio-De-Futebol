@@ -98,12 +98,12 @@ O script `banco.sql` será executado automaticamente.
 ```
 .
 ├── src/
-├── target/
-│   └── torneio-futebol-1.0.jar
+├── target
 ├── banco.sql
 ├── docker-compose.yml
 ├── pom.xml
-└── README.md
+├── README.md
+└── torneio-futebol-1.0.jar
 ```
 
 ---
